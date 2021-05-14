@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gratiasdevelop.lglb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LGLB">
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi3_tts"></activity>
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi2_tts" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_soal_evaluasi" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi3_latihan_soal" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi2_latihan_soal" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi3_isi" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi3_video" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi3_ref_pndkg" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi3_sistem_endoktrin" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi1_tts" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi2_isi" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi2_ref_pndkg" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi2_video" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi2_sistem_indra" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi1_latihan_soal" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi1_ref_pndkg" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi1_isi" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi1_video" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi1_sistem_saraf" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_materi_pengantar_siskormnsia" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_mn_materi" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_dtl_indktr_pencapaian_kptensi" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_dtl_kopetensi_dasar" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_dtl_kopetensi_inti" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_mn_ki_kd_ipk" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_daftar_pustaka" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_profil_peneliti" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_peta_konsep" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_kata_pengantar" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_petunjuk_penggunaan" />
+        <activity android:name="com.gratiasdevelop.lglb.screen_menu_utama" />
+        <activity android:name="com.gratiasdevelop.lglb.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

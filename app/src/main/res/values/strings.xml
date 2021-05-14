@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LGLB</string>
+    <string name="kompetensi_inti_ki">Kompetensi Inti <br>(KI)</br></string>
+    <string name="materi_belajar">MATERI <br></br>BELAJAR</string>
+</resources>
